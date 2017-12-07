@@ -12,7 +12,7 @@ public class UserBean {
 		this.username = username;
 	}
 
-	public boolean validate(String username){
+	public boolean validate(String name){
 		if (username.equals("zhangsan"))
 			return true;
 		else 
